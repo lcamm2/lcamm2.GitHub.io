@@ -88,7 +88,7 @@ console.log(
     /*夜间自动打开暗色主题*/
     const currentTime = new Date();
     const currentHour = currentTime.getHours();
-    if (currentHour >= 20 || currentHour < 6) {
+    if (currentHour >= 22 || currentHour < 5) {
       switchCheckbox.checked = false;
       changeTheme("Dark");
     }
