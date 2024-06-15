@@ -56,7 +56,7 @@ console.log(
         tanChiShe.src = "/static/svg/snake-Light.svg";
         htmlTag.dataset.theme = "";
       }
-      setCookie("themeState", theme, 365);
+      setCookie("themeState", theme, 0.5);
     }
   
     function setCookie(name, value, days) {
